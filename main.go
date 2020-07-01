@@ -5,7 +5,7 @@ import (
 )
 
 type No_Interface struct {
-		name string
+		Name string
 }
 
 func (c *No_Interface) interface_func() {
