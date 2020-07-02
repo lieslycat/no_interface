@@ -8,6 +8,6 @@ type No_Interface struct {
 		Name string
 }
 
-func (c *No_Interface) Interface_func() {
+func (c *No_Interface) interface_func() {
   fmt.Printf("name: %v", c.Name)
 }
