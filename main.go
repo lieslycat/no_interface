@@ -9,5 +9,5 @@ type No_Interface struct {
 }
 
 func (c *No_Interface) Interface_func() {
-  fmt.Printf("name: %v", c.name)
+  fmt.Printf("name: %v", c.Name)
 }
